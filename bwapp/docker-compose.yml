@@ -1,0 +1,7 @@
+version: '2'
+services:
+ web:
+   image: gelab/docker-vuln:bwapp
+   ports:
+    - "8080:80"
+    - "3306:3306"
