@@ -1,0 +1,7 @@
+version: '2'
+services:
+ web:
+   command: ./usr/local/nginx/sbin/nginx
+   image: gelab/nginx:nginx_back_door  
+   ports:
+    - "8080:80"
