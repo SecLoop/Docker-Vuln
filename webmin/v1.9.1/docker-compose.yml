@@ -1,0 +1,6 @@
+version: '2'
+services:
+ webmin:
+   image: gelab/webmin:1.9.1
+   ports:
+    - "10000:10000"
