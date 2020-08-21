@@ -1,6 +1,8 @@
 version: '2'
 services:
- webmin:
-   image: gelab/webmin:1.9.1
+ web:
+   image: rhbb/cve-2019-15107
+   command: /root/qidong.sh
+   tty: true
    ports:
-    - "10000:10000"
+    - "10001:10000"
